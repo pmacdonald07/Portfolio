@@ -56,7 +56,7 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url(./images/bg-image-2.jpg);
+    background-image: url(./images/bg-2.jpg);
     background-size: cover;
     display: flex;
     width: 100%;
@@ -166,3 +166,30 @@ header nav ul li a {
     background-size: cover;
 }
 
+.contact-me {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-header {
+    margin: 15px 10px;
+    padding: 30px;
+    flex: 1;
+    text-align: right;
+    font-size: 30px;
+    border-right: var(--primary-color) solid;
+}
+
+.contact-content {
+    padding: 30px 40px 30px 30px;
+    flex: 2;
+    margin: 15px 10px;
+}
+
+.contact-content ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
