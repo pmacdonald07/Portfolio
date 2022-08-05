@@ -261,3 +261,48 @@ header nav ul li a {
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 521px) {
+    .everything {
+        display: block;
+    }
+
+    .main-content-header {
+        width: auto;
+        border-right: none;
+        border-bottom: var(--primary-color) solid;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .work-section {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0%;
+    }
+
+    .work-content {
+        margin-bottom: 0;
+    }
+
+    .about-me {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0%;
+    }
+
+    .about-me-content{
+        margin-bottom: 0;
+    }
+
+    .contact-me {
+        display: block;
+        margin-top: 0;
+        margin-bottom: 0%;
+    }
+
+    .contact-content{
+        margin-bottom: 0;
+    }
+}
