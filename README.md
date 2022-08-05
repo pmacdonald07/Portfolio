@@ -10,6 +10,7 @@ To complete this goal I did the following:
     In the section showcasing my work, I make clickable images that link to the live webpages of projects I've completed.
     Created a contact section in the footer with links to my email address and Github page.
     Used HTML semantic elements and alt text to make my portfolio more accessible.
+    Used mediaqueries to make my website function well on multiple screen sizes.
 
 By completing this project I've learned a great deal about website design, and how to create an engaging portfolio that I am incredibly proud of. Creating this webpage from scratch was very challenging, but was terrific practice. I made mistakes, had several "eureka" moments, and can't wait to add more to this portfolio as I learn new techniques.
 
