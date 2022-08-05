@@ -71,7 +71,7 @@ header nav ul li a {
     justify-content: space-around;
 }
 
-.about-me-header {
+.main-content-header {
     margin: 15px 10px;
     padding: 30px;
     flex: 1;
@@ -84,21 +84,30 @@ header nav ul li a {
     padding: 30px 40px 30px 30px;
     flex: 2;
     margin: 15px 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.about-me-content img {
+    height: 150px;
+    width: 150px;
+    border: solid var(--secondary-color) 5px;
+    filter: brightness(90%);
+}
+
+.about-me-content img:hover {
+    filter: brightness(100%);
+}
+
+.about-me-text {
+    margin-left: 30px;
 }
 
 .work-section {
     background-color: var(--background-color);
     display: flex;
     justify-content: space-around;
-}
-
-.work-header {
-    margin: 15px 10px;
-    padding: 30px;
-    flex: 1;
-    text-align: right;
-    font-size: 30px;
-    border-right: var(--primary-color) solid;
 }
 
 .work-content {
@@ -172,15 +181,6 @@ header nav ul li a {
     justify-content: space-around;
 }
 
-.contact-header {
-    margin: 15px 10px;
-    padding: 30px;
-    flex: 1;
-    text-align: right;
-    font-size: 30px;
-    border-right: var(--primary-color) solid;
-}
-
 .contact-content {
     padding: 30px 40px 30px 30px;
     flex: 2;
@@ -192,4 +192,9 @@ header nav ul li a {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    flex-wrap: wrap;
+}
+
+.contact-content ul li a {
+    text-decoration: none;
 }
