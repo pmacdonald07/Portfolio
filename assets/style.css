@@ -100,6 +100,7 @@ header nav ul li a {
     width: 150px;
     border: solid var(--secondary-color) 5px;
     filter: brightness(90%);
+    border-radius: 50%;
 }
 
 .about-me-content img:hover {
