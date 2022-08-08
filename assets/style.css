@@ -267,37 +267,18 @@ header nav ul li a {
         font-size: 25px;
     }
 
-    .work-section {
+    .work-section, .about-me, .contact-me {
         display: block;
         margin-top: 0;
-        margin-bottom: 0%;
-    }
-
-    .work-content {
         margin-bottom: 0;
     }
 
-    .about-me {
-        display: block;
-        margin-top: 0;
-        margin-bottom: 0%;
-    }
-
-    .about-me-content{
-        margin-bottom: 0;
-    }
-
-    .contact-me {
-        display: block;
-        margin-top: 0;
-        margin-bottom: 0%;
-    }
-
-    .contact-content{
+    .work-content, .about-me-content, .contact-content {
         margin-bottom: 0;
     }
 
     .contact-content ul li a {
         padding: 8px;
     }
+    
 }
